@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrainFuck Interpreter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/1ecd8ddeef.js" crossorigin="anonymous"></script>
+  <script src="js/interpreter.js"></script>
+  <script src="js/transpile.js"></script>
+</head>
+<body>
+  <div class="box justify-content-center">
+    <h1 class="title text-center">BrainFuck Interpreter</h1>
+    <div class="row justify-content-center vertical-align content">
+      <div class="col-5">
+        <div class="form-group">
+          <label for="code">Code</label>
+          <textarea class="form-control" id="code" rows="15"></textarea>
+        </div>
+        <button class="btn btn-primary" id="run-btn">Run</button>
+        <button class="btn btn-primary" id="mini-btn">Minify</button>
+        <button class="btn btn-primary" id="transpile-btn">Transpile</button>
+        <div class="form-group">
+          <input type="text" class="form-control" id="input" placeholder="Input...">
+        </div>
+      </div>
+      <div class="col-1 text-center">
+        <!--temp fix-->
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/>
+        <i class="fas fa-arrow-right fa-3x"></i>
+      </div>
+      <div class="col-5">
+        <div class="form-group">
+          <label for="output">Output</label>
+          <textarea class="form-control output" id="output" rows="15" readonly></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  </div>
+</body>
+</html>

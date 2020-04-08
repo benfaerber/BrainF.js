@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  margin: 0
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 95%;
+  margin: auto;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+textarea {
+  font-family: monospace, monospace !important;
+}
